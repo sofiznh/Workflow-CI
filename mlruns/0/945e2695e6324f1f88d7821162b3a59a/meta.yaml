@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/945e2695e6324f1f88d7821162b3a59a/artifacts
+end_time: 1750320631491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 945e2695e6324f1f88d7821162b3a59a
+run_name: indecisive-hare-867
+run_uuid: 945e2695e6324f1f88d7821162b3a59a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750320612212
+status: 3
+tags: []
+user_id: runner

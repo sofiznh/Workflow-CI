@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/06a5c55d327442ae9d8cc3f71d48afae/artifacts
+end_time: 1750356925590
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06a5c55d327442ae9d8cc3f71d48afae
+run_name: mysterious-shrew-10
+run_uuid: 06a5c55d327442ae9d8cc3f71d48afae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750356905734
+status: 3
+tags: []
+user_id: runner
