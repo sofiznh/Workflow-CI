@@ -25,8 +25,8 @@ if __name__ == "__main__":
     # Load dataset
     X_train = pd.read_csv(f"{args.dataset}/X_train.csv")
     X_test = pd.read_csv(f"{args.dataset}/X_test.csv")
-    Y_train = pd.read_csv(f"{args.dataset}/Y_train.csv").values.ravel()
-    Y_test = pd.read_csv(f"{args.dataset}/Y_test.csv").values.ravel()
+    Y_train = pd.read_csv(f"{args.dataset}/y_train.csv").values.ravel()
+    Y_test = pd.read_csv(f"{args.dataset}/y_test.csv").values.ravel()
 
     with mlflow.start_run():
         # Logging parameters
