@@ -1,0 +1,25 @@
+name: personality-prediction
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      n_estimators: {type: int, default: 150}
+      max_depth: {type: int, default: 15}
+      min_samples_split: {type: int, default: 8}
+      min_samples_leaf: {type: int, default: 2}
+      bootstrap: {type: bool, default: True}
+      max_features: {type: string, default: "log2"}
+      random_state: {type: int, default: 42}
+      dataset: {type: string, default: "preprocessed_dataset"}
+    command: >
+      python modelling.py
+      --n_estimators {n_estimators}
+      --max_depth {max_depth}
+      --min_samples_split {min_samples_split}
+      --min_samples_leaf {min_samples_leaf}
+      --bootstrap {bootstrap}
+      --max_features {max_features}
+      --random_state {random_state}
+      --dataset {dataset}
