@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/b3a713e0b0684bb993b6db1a9ed16580/artifacts
+end_time: 1750570727963
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b3a713e0b0684bb993b6db1a9ed16580
+run_name: peaceful-kite-323
+run_uuid: b3a713e0b0684bb993b6db1a9ed16580
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750570679621
+status: 3
+tags: []
+user_id: runner
